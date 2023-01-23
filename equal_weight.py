@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
-#The goal of this section of the course is to create a Python script that will accept the value of your portfolio and tell you how many shares of each S&P 500 constituent you should purchase to get an equal-weight version of the index fund.
+#Objective: The goal of this section of the course is to create a Python script that will accept the value of your portfolio and tell you how many shares of each S&P 500 constituent you should purchase to get an equal-weight version of the index fund.
 
-import numpy as np #numerical computing module (actually executed in C++)
+import numpy as np 
 import pandas as pd
 import requests 
 import math 
 import xlsxwriter 
 
-stocks = pd.read_csv('sp_500_stocks.csv')
+stocks = pd.read_csv('sp_500_stocks.csv') #Consider using argsparse and flags for the stocks CSV
 from secrets import IEX_CLOUD_API_TOKEN #Be sure secrets.py is in your current working directory 
 
 #symbol = 'AAPL'
