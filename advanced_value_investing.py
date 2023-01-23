@@ -2,7 +2,8 @@
 
 #Value Investing Algorithm - Buying stocks that are cheap relative to their intrinsic value
 #price to earnings metrics - current stock prick divided by estimated annually earnings 
-import numpy as np #numerical computing module (actually executed in C++)
+
+import numpy as np
 import pandas as pd
 import subprocess as sp
 import requests 
