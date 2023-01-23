@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
-#The goal of this script is to select 50 stocks from the S&P 500 with the highest price momentum. High-Quality Momentum Stock Strategy!
-#Old Goal Above -> New Goal incorporates all the stocks on the nasdaq
+#Objective: The goal of this script is to select 50 stocks from the S&P 500 with the highest price momentum. High-Quality Momentum Stock Strategy!
 
-import numpy as np #numerical computing module (actually executed in C++)
+import numpy as np 
 import pandas as pd
 import requests 
 import math 
